@@ -1,1 +1,1 @@
-# pritam
+everything about my journy
