@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;;
+}
+.cover img{
+    height: 100%;
+    width: 650px;
+}
+#cov img{
+     /* position: absolute; 
+    top: 0px;
+    right: 0px;  */
+    /* object-fit: cover; */
+    height: 100%;
+    width: 565px;
+    opacity: 0.2;
+}
+.logo img{
+    /* display: inline-block; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* left: 5px; */
+    height: 130px;
+    width: 150px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.nav{
+    
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    display: flex;
+
+}
+.nav li{
+    list-style: none;
+
+}
+.nav li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:2px 25px;
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in-out;
+    color: black;
+
+}
+.nav li a:hover{
+    color: blue;
+}
